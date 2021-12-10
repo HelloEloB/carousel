@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+  src: url(fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+  font-family: Jo;
+}
+@font-face {
+  font-family: Mo;
+  src: url(fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf);
+}
+  
+body {
+    background: #040F19 !important;
+  }
+
+.title {
+    color: #FAFAFA !important;
+    font-family: Jo !important;
+    font-weight: bold !important;
+    text-align: left;
+  }
+
+.text {
+    color: #FAFAFA;
+    font-family: Mo !important;
+    line-height: 50px !important;
+    text-align: left;
+
+  }
+
+  .carousel-control-prev-icon {
+    left: 25px;
+    font-size: 70px;
+    user-select: none;
+    color: #FAFAFA;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .carousel-control-next-icon {
+    right: 25px;
+    font-size: 70px;
+    user-select: none;
+    color: #FAFAFA;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  
+  }
+  .carousel-inner {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+
+  .carousel-caption {
+    margin-left: 5px;
+    margin-right: 80px;
+    position: absolute;
+    align-content:center ;
+  }
+
+  .carousel-image {
+    width : 300px;
+    margin-left: 80px;
+    position: relative;
+   }
+
+  .carousel-indicators {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  
+  .carousel-indicators .active {
+    background: #FAFAFA;
+    border: 2px solid #FAFAFA;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background: #2e2d44;
+    border: 2px solid #2e2d44;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
